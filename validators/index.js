@@ -3,11 +3,21 @@
 /**
  * Export structure
  */
-exports.equals = require('./equals');
 exports.gt = require('./gt');
 exports.gte = require('./gte');
 exports.lt = require('./lt');
 exports.lte = require('./lte');
+exports.equals = require('./equals');
+exports.hasDigits = require('./has-digits');
+exports.hasSymbols = require('./has-symbols');
+exports.hasLowerCase = require('./has-lower-case');
+exports.hasUpperCase = require('./has-upper-case');
+exports.hasMixedCase = require('./has-mixed-case');
+exports.minLength = require('./min-length');
+exports.maxLength = require('./max-length');
+exports.maxRepeats = require('./max-repeats');
+exports.maxSequences = require('./max-sequences');
+exports.notMatching = require('./not-matching');
 exports.notEmpty = require('./not-empty');
 exports.isEmpty = require('./is-empty');
 exports.isArray = require('./is-array');
