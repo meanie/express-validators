@@ -22,11 +22,11 @@ describe('isDateInFuture()', () => {
     expect(isDateInFuture(now.clone().subtract(1, 'day'), 60)).to.be.false();
   });
   it('should validate future times', () => {
-    const time = now.clone().add(1, 'hour').getTime();
-    expect(isDateInFuture(now, time)).to.be.true();
+    const date = now.clone().add(1, 'hour');
+    expect(isDateInFuture(date)).to.be.true();
   });
   it('should invalidate past times', () => {
-    const time = now.clone().subtract(1, 'hour').getTime();
-    expect(isDateInFuture(now, time)).to.be.false();
+    const date = now.clone().subtract(1, 'hour');
+    expect(isDateInFuture(date)).to.be.false();
   });
 });
