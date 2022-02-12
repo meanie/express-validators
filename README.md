@@ -41,4 +41,4 @@ This package has been kindly sponsored by [Hello Club](https://helloclub.com?sou
 
 (MIT License)
 
-Copyright 2018-2020, Adam Reis
+Copyright 2018-2022, Adam Reis
