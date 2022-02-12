@@ -1,13 +1,12 @@
 # @meanie/express-validators
 
 [![npm version](https://img.shields.io/npm/v/@meanie/express-validators.svg)](https://www.npmjs.com/package/@meanie/express-validators)
-[![node dependencies](https://david-dm.org/meanie/express-validators.svg)](https://david-dm.org/meanie/express-validators)
 [![github issues](https://img.shields.io/github/issues/meanie/express-validators.svg)](https://github.com/meanie/express-validators/issues)
-[![codacy](https://img.shields.io/codacy/4864254c6487475690821ffd20c498f0.svg)](https://www.codacy.com/app/meanie/express-validators)
 
 A collection of basic validators for use in Express or [Meanie Express Seed](https://github.com/meanie/express-seed) projects
 
-![Meanie](https://raw.githubusercontent.com/meanie/meanie/master/meanie-logo-full.png)
+## 🚨 DEPRECATED 🚨 
+This package is deprecated and no longer maintained
 
 ## Installation
 
